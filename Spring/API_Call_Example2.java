@@ -29,3 +29,16 @@ Response Body: {
 }
 
 */
+
+/*
+Some examples:
+HttpHeaders headers = new HttpHeaders(); 
+headers.setBearerAuth(token); 
+headers.setContentType(new MediaType("application", "vnd.github+json")); 
+// headers.setContentType(MediaType.parseMediaType("application/vnd.github+json")); 
+headers.setContentType(MediaType.APPLICATION_JSON);
+headers.setBasicAuth("user", "pass"); 
+headers.add("Accept", MediaType.APPLICATION_JSON.toString()); 
+headers.set(ACCEPT, "application/Json"); 
+HttpEntity<String> requestEntity = new HttpEntity<>(request, headers);
+*/
